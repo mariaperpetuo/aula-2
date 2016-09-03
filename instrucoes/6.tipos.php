@@ -1,3 +1,7 @@
+<?php
+
+var_dump(gettype($variavel));
+
 // INTEIROS
 
 # inteiro positivo na base decimal
