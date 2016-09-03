@@ -1,33 +1,18 @@
 <body>
-<?php
-/*
-linha 1
-linha 2
-*/
+  <?php
+  $variavel1='midira';
 
-$variavel1 = 'midira';
-# comentario de linha
-$variavel2 = "William é legal ({$variavel1})"; // comentario dessa linha
-// array com indices anonimos
-$variavel3 = array('Maçã', 'Banana', 'Pêra', 'Xuxu', 'Quiabo');
-// array associativo
-$variavel4 = array(
-  'a' => $variavel3, 'b' => 'Banana', 'c' => 'Pêra', 'd' => 'Xuxu', 'e' => 'Quiabo'
-);
-// boolean
-$variavel5 = false;
-// class
-//$variavel6 = new Classe();
+  $variavel2="Mary e top de ++";
+  $variavel3="ela e fera";
+  echo'<br>';
+  $variavel2=$variavel3[1];
 
 echo $variavel1;
-echo '<br>';
+echo'<br>';
 echo $variavel2;
-echo '<br>';
-echo implode(',', $variavel3);
-echo '<br>';
-echo $variavel4['b'];
+echo'<br>';
+echo$variavel3;
+echo' <br>';
 
-require 'printer.php';
-
-?>
-</body>
+   ?>
+ </body>
